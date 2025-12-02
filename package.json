@@ -1,3 +1,5 @@
+cp package.json package.json.bak
+cat > package.json <<'EOF'
 {
   "name": "Personal Portfolio Website",
   "version": "0.1.0",
@@ -61,3 +63,4 @@
     "deploy": "gh-pages -d dist"
   }
 }
+EOF
