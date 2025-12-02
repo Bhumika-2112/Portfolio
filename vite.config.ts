@@ -64,3 +64,13 @@ export default defineConfig({
   base: "/Portfolio/",
   plugins: [react()],
 });
+cat > vite.config.js <<'EOF'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react-swc";
+
+export default defineConfig({
+  base: "/Portfolio/",   // repo name from your remote URL
+  plugins: [react()],
+});
+EOF
+
