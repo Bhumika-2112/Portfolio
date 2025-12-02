@@ -1,3 +1,9 @@
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
 {
   "homepage": "https://Bhumika-2112.github.io/Portfolio",
 "name": "Personal Portfolio Website",
