@@ -8,7 +8,7 @@ import { Poetry } from "./components/Poetry";
 import { Services } from "./components/Services";
 import { Testimonials } from "./components/Testimonials";
 import { Contact } from "./components/Contact";
-import { Footer } from "./components/Footer";
+import Footer from "./components/Footer";
 import "./styles/globals.css";
 
 export default function App() {
