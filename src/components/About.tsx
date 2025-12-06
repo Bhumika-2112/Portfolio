@@ -5,7 +5,7 @@ export function About() {
   const beliefs = [
     {
       icon: Heart,
-      title: "Design should feel.",
+      title: "Design should feel human.",
       description: "Every interface should evoke emotion and create genuine connections.",
       color: "#ff0080",
     },
