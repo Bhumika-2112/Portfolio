@@ -62,7 +62,7 @@ export function Hero() {
                   ease: "linear",
                 }}
               >
-                Bhumika
+                Bhumika.
               </motion.span>
             </motion.h1>
 
@@ -81,7 +81,12 @@ export function Hero() {
               <span className="text-[#ff00ff]">Product Thinker</span> •{" "}
               <span className="text-[#00ff9f]">Branding Artist</span> •{" "}
               <span className="text-[#ffff00]">Illustrator</span> •{" "}
+              <span className="text-[#ff00ff]">Poet</span> •{" "}
               <span className="text-[#ff0080]">Creative Storyteller</span>
+            </p>
+            <p className="text-lg text-muted-foreground">
+              I’m a full-time UI/UX designer, but my heart wanders far beyond interfaces.
+I write poems, paint, illustrate, create digital art. Honestly, I’m drawn to anything that breathes creativity. Even when I don’t know something yet, my curiosity pushes me to learn, explore, and express. Creativity is my language.
             </p>
 
             <div className="flex gap-4 pt-4">

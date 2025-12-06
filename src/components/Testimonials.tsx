@@ -132,7 +132,7 @@ export function Testimonials() {
             >
               {/* Neon glow on hover */}
               <motion.div
-                className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 blur-2xl transition-opacity"
+                className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-50 blur-2xl transition-opacity"
                 style={{ background: testimonial.color }}
               />
 

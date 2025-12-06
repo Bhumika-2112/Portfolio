@@ -100,7 +100,7 @@ export function CaseStudies() {
             }}
           >
             <Zap className="w-6 h-6 text-[#ffff00]" />
-            <h2 className="text-4xl md:text-5xl neon-text-cyan">
+            <h2 className="text-4xl md:text-5xl">
               Featured <span className="text-[#ff00ff]">Case Studies</span>
             </h2>
             <Zap className="w-6 h-6 text-[#ffff00]" />
@@ -143,7 +143,7 @@ export function CaseStudies() {
             >
               {/* Neon glow on hover */}
               <motion.div
-                className="absolute inset-0 rounded-3xl opacity-0 group-hover:opacity-100 blur-xl transition-opacity"
+                className="absolute inset-0 rounded-3xl opacity-0 group-hover:opacity-50 blur-xl transition-opacity"
                 style={{ background: study.color }}
               />
 

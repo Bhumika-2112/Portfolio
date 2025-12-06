@@ -5,14 +5,14 @@ export function About() {
   const beliefs = [
     {
       icon: Heart,
-      title: "Design should feel human.",
-      description: "Every interface should evoke emotion and create genuine connections.",
+      title: "Curiosity is the greatest tool.",
+      description: "I believe in learning endlessly, exploring fearlessly and perspectives beyond my comfort zone.",
       color: "#ff0080",
     },
     {
       icon: Lightbulb,
       title: "Every product has a story.",
-      description: "Behind every design decision is a narrative waiting to be told.",
+      description: "Behind every design decision is a narrative waiting to be told and a designer to be listened.",
       color: "#ffff00",
     },
     {
@@ -84,8 +84,8 @@ export function About() {
             <div className="prose prose-lg max-w-none">
               {[
                 "My journey began with a pencil in hand and curiosity in my heart. From sketching doodles in notebooks to crafting digital experiences that touch lives, creativity has always been my compass.",
-                "I started in graphic design, fell in love with UI/UX, and found my calling in product design — where art meets strategy, and empathy meets innovation.",
-                "Today, I blend pixels with poetry, wireframes with wonder, and functionality with feeling. Because design isn't just about making things look good — it's about making people feel something.",
+                "I started in graphic design, fell in love with UI/UX, and found my calling in product design where art meets strategy, and empathy meets innovation.",
+                "Today, I blend pixels with poetry, wireframes with wonder, and functionality with feeling. Because design isn't just about making things look good it's about making people feel something.",
               ].map((text, i) => (
                 <motion.p
                   key={i}
